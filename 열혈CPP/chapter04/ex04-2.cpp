@@ -1,6 +1,9 @@
-/*	
-	
+/*
+	캡슐화, 
+
+	Point < Circle < Ring
 */
+
 #include<iostream>
 
 using namespace std;
