@@ -18,10 +18,10 @@ class SnuffleCap   // 코막힘 처치용 캡슐
 public:
 	void Take() const { cout << "코가 뻥 뚫립니다." << endl; }
 };
-
+//class를 파라미터로 받아서 해당 클래스의 기능을 사용한다.
 class ColdPatient
 {
-public:
+public: 
 	void TakeSinivelCap(const SinivelCap &cap) const { cap.Take(); }
 	void TakeSneezeCap(const SneezeCap &cap) const { cap.Take(); }
 	void TakeSnuffleCap(const SnuffleCap &cap) const { cap.Take(); }
